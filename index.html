@@ -1,0 +1,72 @@
+<!-- Joel La Croix -->
+<!doctype html>
+<html>
+ <head>
+ <title>SVG : Colour demo</title>
+<script src="paint.js"> </script>
+ </head>
+
+<body >
+
+<h1>HTML 5 SVG Colour Demo </h1>
+
+<h2 id="currentcolour"> Current colour: none </h2>
+
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" height="500" width="800">
+
+<!-- box -->
+<rect id="box" x="0" y="0" width="450" height="500" style="fill:white;stroke:black" onclick="fill(this.id)"> </rect>
+
+<!-- sun/moon -->
+<circle id="obj" cx="100" cy="100" r="40" stroke="black" stroke-width="2" fill="white" onclick="fill(this.id)" > </circle>
+
+<!-- trunk -->
+<rect id="trunk" x="300" y="400" width="75" height="100" style="fill:white;stroke:black" onclick="fill(this.id)"> </rect>
+
+<!--bottom tree 1 -->
+<polygon id="bottom" points="330,250 270,400 400,400" stroke="black" fill="white" onclick="fill(this.id)"> </polygon>
+
+<!-- middle tree 1 -->
+<polygon id="middle1" points="330,200 270,350 400,350" stroke="black" fill="white" onclick="fill(this.id)" > </polygon>
+
+<!-- middle tree 2 -->
+<polygon id="middle2" points="330,150 270,300 400,300" stroke="black" fill="white" onclick="fill(this.id)" > </polygon>
+
+<!-- middle tree 3 -->
+<polygon id="top" points="330,100 270,250 400,250" stroke="black" fill="white" onclick="fill(this.id)" > </polygon>
+
+
+<!-- colour box -->
+<rect x="500" y="0" width="150" height="200" style="fill:white;stroke:black" > </rect>
+
+<rect id="red" x="500" y="0" width="50" height="50" style="fill:red;stroke:black" onclick="fillSet(this.id)"> </rect>
+
+<rect id="blue" x="550" y="0" width="50" height="50" style="fill:blue;stroke:black" onclick="fillSet(this.id)" > </rect>
+
+<rect id="green" x="600" y="0" width="50" height="50" style="fill:green;stroke:black" onclick="fillSet(this.id)" > </rect>
+
+<rect id="yellow" x="500" y="50" width="50" height="50" style="fill:yellow;stroke:black" onclick="fillSet(this.id)" > </rect>
+
+<rect id="orange" x="550" y="50" width="50" height="50" style="fill:orange;stroke:black" onclick="fillSet(this.id)" > </rect>
+
+<rect id="purple" x="600" y="50" width="50" height="50" style="fill:purple;stroke:black" onclick="fillSet(this.id)"> </rect>
+
+<rect id="brown" x="500" y="100" width="50" height="50" style="fill:brown;stroke:black" onclick="fillSet(this.id)" > </rect>
+
+<rect id="yellowgreen" x="550" y="100" width="50" height="50" style="fill:yellowgreen;stroke:black" onclick="fillSet(this.id)" > </rect>
+
+<rect id="lightblue" x="600" y="100" width="50" height="50" style="fill:lightblue;stroke:black" onclick="fillSet(this.id)" > </rect>
+
+<rect id="black" x="500" y="150" width="50" height="50" style="fill:black;stroke:black" onclick="fillSet(this.id)" > </rect>
+
+<rect id="white" x="550" y="150" width="50" height="50" style="fill:white;stroke:black" onclick="fillSet(this.id)" > </rect>
+
+<rect id="grey" x="600" y="150" width="50" height="50" style="fill:grey;stroke:black" onclick="fillSet(this.id)" > </rect>
+
+</svg>
+
+
+
+
+ </body>
+ </html>
